@@ -2,12 +2,17 @@ import logo from './logo.svg';
 import './App.css';
 
 function App() {
+
+  var saludo = "Hola, soy Juan Pablo";
+  var texto = "Esta es mi primera app en React";
+
   return (
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
+        <h1>{saludo}</h1>
+        <p>f
+          {texto}
         </p>
         <a
           className="App-link"
